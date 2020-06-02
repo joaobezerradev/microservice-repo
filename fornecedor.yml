@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: fornecedor
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fornecedor
+    username: postgres
+    password: docker
+    driver-class-name: org.postgresql.Driver
